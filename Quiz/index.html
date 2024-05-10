@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Quiz</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        margin-top: 0;
+      }
+      .question {
+        margin-bottom: 20px;
+      }
+      .options label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      .correct {
+        color: green;
+      }
+      .incorrect {
+        color: red;
+      }
+      .result {
+        margin-top: 20px;
+      }
+      .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Interactive Quiz</h2>
+      <div id="quiz">
+        <div class="question" id="question1">
+          <h3>Question 1: What is the capital of France?</h3>
+          <div class="options">
+            <label
+              ><input
+                type="radio"
+                name="q1"
+                value="Paris"
+                onclick="checkAnswer(this)"
+              />
+              Paris</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="q1"
+                value="London"
+                onclick="checkAnswer(this)"
+              />
+              London</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="q1"
+                value="Berlin"
+                onclick="checkAnswer(this)"
+              />
+              Berlin</label
+            >
+          </div>
+        </div>
+        <div class="question" id="question2">
+          <h3>Question 2: What is the largest planet in our solar system?</h3>
+          <div class="options">
+            <label
+              ><input
+                type="radio"
+                name="q2"
+                value="Earth"
+                onclick="checkAnswer(this)"
+              />
+              Earth</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="q2"
+                value="Mars"
+                onclick="checkAnswer(this)"
+              />
+              Mars</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="q2"
+                value="Jupiter"
+                onclick="checkAnswer(this)"
+              />
+              Jupiter</label
+            >
+          </div>
+        </div>
+      </div>
+      <div class="result" id="result"></div>
+      <button class="btn" onclick="resetQuiz()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

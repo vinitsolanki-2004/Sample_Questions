@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Feedback Form</h1>
+    <div class="container">
+      <div class="question">
+        <h2>How satisfied are you with our service?</h2>
+        <div class="options">
+          <label
+            ><input type="radio" name="satisfaction" value="Very satisfied" />
+            Very satisfied</label
+          >
+          <label
+            ><input type="radio" name="satisfaction" value="Satisfied" />
+            Satisfied</label
+          >
+          <label
+            ><input type="radio" name="satisfaction" value="Neutral" />
+            Neutral</label
+          >
+          <label
+            ><input type="radio" name="satisfaction" value="Unsatisfied" />
+            Unsatisfied</label
+          >
+          <label
+            ><input type="radio" name="satisfaction" value="Very unsatisfied" />
+            Very unsatisfied</label
+          >
+        </div>
+      </div>
+      <div class="question">
+        <h2>How likely are you to recommend us to others?</h2>
+        <div class="options">
+          <label
+            ><input type="radio" name="recommend" value="Very likely" /> Very
+            likely</label
+          >
+          <label
+            ><input type="radio" name="recommend" value="Likely" />
+            Likely</label
+          >
+          <label
+            ><input type="radio" name="recommend" value="Neutral" />
+            Neutral</label
+          >
+          <label
+            ><input type="radio" name="recommend" value="Unlikely" />
+            Unlikely</label
+          >
+          <label
+            ><input type="radio" name="recommend" value="Very unlikely" /> Very
+            unlikely</label
+          >
+        </div>
+      </div>
+      <button onclick="submitFeedback()">Submit Feedback</button>
+      <div class="feedback" id="feedback"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

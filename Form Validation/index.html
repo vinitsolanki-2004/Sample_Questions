@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Event Registration</title>
+    <link rel="stylesheet" href="style.css">
+      
+  </head>
+  <body>
+    <div class="container">
+      <h2>College Event Registration</h2>
+      <form id="registration-form" onsubmit="validateForm(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <div id="name-error" class="error-message"></div>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <div id="email-error" class="error-message"></div>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+        <div id="gender-error" class="error-message"></div>
+
+        <input type="submit" value="Register" />
+      </form>
+
+      <div id="registration-details"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

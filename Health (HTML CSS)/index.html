@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health & Wellness Professional</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <h1>Health & Wellness Professional</h1>
+        <nav>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#appointment">Appointment</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Services Offered</h2>
+        <ul>
+          <li>Massage Therapy</li>
+          <li>Yoga Classes</li>
+          <li>Nutrition Counseling</li>
+          <li>Acupuncture</li>
+          <!-- Add more services as needed -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment">
+      <div class="container">
+        <h2>Appointment Scheduling</h2>
+        <form id="appointmentForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="date">Preferred Date</label>
+            <input
+              type="date"
+              id="date"
+              name="date"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="time">Preferred Time</label>
+            <input
+              type="time"
+              id="time"
+              name="time"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message (optional)</label>
+            <textarea
+              id="message"
+              name="message"
+              class="form-control"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+      <div class="container">
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-post">
+          <div class="post-image">
+            <img src="blog-post1.jpg" alt="Blog Post Image" />
+          </div>
+          <div class="post-content">
+            <h3>Blog Post Title</h3>
+            <p class="post-meta">
+              Posted on <span class="date">May 10, 2024</span> by
+              <span class="author">John Doe</span>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
+              nisl eu neque gravida vehicula. Nulla facilisi. Cras tincidunt,
+              sem a sagittis hendrerit, purus nulla fermentum felis, et suscipit
+              purus leo vel est. Nullam id tempus ex.
+            </p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+        <!-- Add more blog posts as needed -->
+        <div class="blog-post">
+          <div class="post-image">
+            <img src="blog-post1.jpg" alt="Blog Post Image" />
+          </div>
+          <div class="post-content">
+            <h3>Blog Post Title</h3>
+            <p class="post-meta">
+              Posted on <span class="date">May 10, 2024</span> by
+              <span class="author">John Doe</span>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
+              nisl eu neque gravida vehicula. Nulla facilisi. Cras tincidunt,
+              sem a sagittis hendrerit, purus nulla fermentum felis, et suscipit
+              purus leo vel est. Nullam id tempus ex.
+            </p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+
+        <div class="blog-post">
+          <div class="post-image">
+            <img src="blog-post1.jpg" alt="Blog Post Image" />
+          </div>
+          <div class="post-content">
+            <h3>Blog Post Title</h3>
+            <p class="post-meta">
+              Posted on <span class="date">May 10, 2024</span> by
+              <span class="author">John Doe</span>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a
+              nisl eu neque gravida vehicula. Nulla facilisi. Cras tincidunt,
+              sem a sagittis hendrerit, purus nulla fermentum felis, et suscipit
+              purus leo vel est. Nullam id tempus ex.
+            </p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-control"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Health & Wellness Professional</p>
+      </div>
+    </footer>
+  </body>
+</html>

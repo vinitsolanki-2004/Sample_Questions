@@ -1,0 +1,120 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  /* Navbar styles */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+  }
+
+  .container.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: auto;
+    padding-left: 20px;
+  }
+
+  .nav-links {
+    list-style: none;
+    margin-left: auto;
+  }
+
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* Article styles */
+  .article {
+    padding: 40px 0;
+  }
+
+  .article h1 {
+    margin-bottom: 20px;
+  }
+
+  .author {
+    margin-bottom: 20px;
+  }
+
+  .author img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .author p {
+    margin-top: 10px;
+  }
+
+  .content {
+    margin-bottom: 20px;
+  }
+
+  .comments {
+    margin-top: 40px;
+  }
+
+  .comment {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .comment:last-child {
+    border-bottom: none;
+  }
+
+  .comment .author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .comment .author img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .comment .author p {
+    margin: 0;
+  }
+
+  .comment p {
+    margin: 0;
+  }
+
+  footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }

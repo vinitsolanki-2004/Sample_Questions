@@ -1,0 +1,89 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 36px;
+  }
+
+  nav ul {
+    list-style: none;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    list-style: none;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .schedule,
+  .speakers,
+  .registration,
+  .location {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .schedule h2,
+  .speakers h2,
+  .registration h2,
+  .location h2 {
+    margin-bottom: 30px;
+  }
+
+  .schedule .event-item,
+  .speakers .speaker {
+    margin-bottom: 30px;
+  }
+
+  .speakers .speaker img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }

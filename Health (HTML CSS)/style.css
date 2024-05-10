@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+
+  nav ul {
+    list-style: none;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .services {
+    padding: 50px 0;
+  }
+
+  .services h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .services ul {
+    list-style: none;
+    text-align: center;
+  }
+
+  .services ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .appointment {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+  }
+
+  .appointment h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  /* Form Styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="time"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  textarea {
+    height: 150px; /* Adjust height of textarea */
+  }
+
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  button {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="time"],
+    textarea {
+      width: 100%;
+    }
+  }
+
+  .blog {
+    padding: 50px 0;
+  }
+
+  .blog h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  /* Blog Post Styles */
+  .blog-post {
+    margin-bottom: 40px;
+    display: flex;
+  }
+
+  .post-image {
+    width: 30%;
+  }
+
+  .post-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .post-content {
+    width: 70%;
+    padding-left: 20px;
+  }
+
+  .post-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .post-meta {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .post-meta .date {
+    font-weight: bold;
+  }
+
+  .post-meta .author {
+    font-style: italic;
+  }
+
+  .post-content p {
+    margin-bottom: 10px;
+  }
+
+  .read-more {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  .read-more:hover {
+    background-color: #0056b3;
+  }
+
+  .contact {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  /* Contact Form Styles */
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .contact-form form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-weight: bold;
+    color: #000;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  textarea {
+    height: 150px; /* Adjust height of textarea */
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
